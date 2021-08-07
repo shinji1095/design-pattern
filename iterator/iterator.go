@@ -1,6 +1,6 @@
 package iterator
 
 type Iterator interface {
-	next() interface{}
-	hasNext() bool
+	Next() string
+	HasNext() bool
 }
