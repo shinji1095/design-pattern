@@ -1,8 +1,7 @@
 package adaptor
 
 type PrintBanner struct {
-	Str    string
-	Banner Banner
+	Banner
 }
 
 func (pb PrintBanner) PrintWeak() {

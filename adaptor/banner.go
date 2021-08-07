@@ -7,9 +7,9 @@ type Banner struct {
 }
 
 func (b Banner) ShowWithParen() {
-	fmt.Print("(" + b.Str + ")")
+	fmt.Print("(" + b.Str + ")\n")
 }
 
 func (b Banner) ShowWithStar() {
-	fmt.Print("*" + b.Str + "*")
+	fmt.Print("*" + b.Str + "*\n")
 }

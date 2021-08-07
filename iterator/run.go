@@ -34,7 +34,7 @@ func Run() {
 			fmt.Print(it2.Next())
 			fmt.Print("\n")
 		} else {
-			fmt.Print("finish!")
+			fmt.Print("finish!\n")
 			break
 		}
 	}
